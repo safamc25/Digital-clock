@@ -74,9 +74,11 @@
 }
 
 @media(max-width:600px){
-    .container{width: 630px;margin-left: 200px;}
-    #time .circle svg {width:100%}
+    .container{width: 560px;margin-left: 150px;}
+    #time .circle svg circle{width: 10%; height: 10%;}
+    #time{gap: 10px;}
     #time div{font-size: 20px;}
+    .colon{margin-left: 160px;}
     
 }
 
