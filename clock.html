@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <audio id="clockAudio" src="clock.mp3.mp3" loop autoplay></audio>
+    <div class="container">
+    <div id="time">
+        <div class="circle">
+            <div id="hours">00</div>
+            <div class="colon">:</div>
+        <svg>
+            <circle cx="70" cy="70" r="70"></circle>
+            <circle cx="70" cy="70" r="70"></circle>
+        </svg>
+
+        </div>
+        <div class="circle">
+            <div id="minutes">00</div>
+            <div class="colon">:</div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+        </div>
+        <div class="circle">
+            <div id="seconds">00</div>
+            <svg>
+                <circle cx="70" cy="70" r="70"></circle>
+                <circle cx="70" cy="70" r="70"></circle>
+            </svg>
+        </div>
+        <div class="ap">
+            <div id="ampm">AM</div>
+        </div>
+    </div>
+</div>
+
+
+</body>
+<script src="./main.js"></script>
+
+</html>
