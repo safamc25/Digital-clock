@@ -73,5 +73,11 @@
     margin-left: 190px;
 }
 
+@media(max-width:600px){
+    .container{width: 630px;margin-left: 200px;}
+    #time .circle svg {width:100%}
+    #time div{font-size: 20px;}
+    
+}
 
 
